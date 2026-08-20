@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Assessment</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7ff;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        h1 {
+            text-align: center;
+            color: #667eea;
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        label {
+            display: block;
+            padding: 10px;
+            margin: 6px 0;
+            background: #f5f5f5;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: 10px;
+            background: #667eea;
+            color: white;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #764ba2;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>📝 Student Assessment</h1>
+
+    <form method="POST">
+
+        <div class="card">
+
+            <h2>🧮 Aptitude</h2>
+
+            <h3>1. If 20% of a number is 50, what is the number?</h3>
+
+            <label>
+                <input type="radio" name="q1" value="200">
+                200
+            </label>
+
+            <label>
+                <input type="radio" name="q1" value="250">
+                250
+            </label>
+
+            <label>
+                <input type="radio" name="q1" value="300">
+                300
+            </label>
+
+            <label>
+                <input type="radio" name="q1" value="150">
+                150
+            </label>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>💻 Technical</h2>
+
+            <h3>2. Which language is commonly used for data analysis?</h3>
+
+            <label>
+                <input type="radio" name="q2" value="Python">
+                Python
+            </label>
+
+            <label>
+                <input type="radio" name="q2" value="HTML">
+                HTML
+            </label>
+
+            <label>
+                <input type="radio" name="q2" value="CSS">
+                CSS
+            </label>
+
+            <label>
+                <input type="radio" name="q2" value="XML">
+                XML
+            </label>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>🗣️ Communication</h2>
+
+            <h3>3. Choose the grammatically correct sentence.</h3>
+
+            <label>
+                <input type="radio" name="q3" value="correct">
+                She goes to college every day.
+            </label>
+
+            <label>
+                <input type="radio" name="q3" value="wrong1">
+                She go to college every day.
+            </label>
+
+            <label>
+                <input type="radio" name="q3" value="wrong2">
+                She going to college every day.
+            </label>
+
+            <label>
+                <input type="radio" name="q3" value="wrong3">
+                She gone to college every day.
+            </label>
+
+        </div>
+
+
+        <button type="submit">
+            Submit Assessment 🚀
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
